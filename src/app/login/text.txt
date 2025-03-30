@@ -1,0 +1,5 @@
+<!-- app.routes.ts >> routes define >> dont add '/' its take auto
+ add router outlet >> app.html & also check >> RouterOutlet(default imported still check) is imported.
+ href >> routerlink & is not work >> respected component add routermodule 
+ navbar comp add >> add routerModule in it >> add navbar where you need.
+ ngFor ngIf (Error) >> import commonModule -->

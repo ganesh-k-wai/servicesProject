@@ -4,11 +4,18 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ApiService {
-
+  counter : number =1;
   constructor() { }
 
-  sayHello()
+  inc()
   {
-    alert('hello word')
+    this.counter++
+    console.log(this.counter)
   }
+  dec(){
+    this.counter--
+    console.log(this.counter)
+  }
+
+  userList :any = []
 }
