@@ -7,10 +7,10 @@ import { UserComponent } from './user/user.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,CommonModule,LoginComponent,UserComponent],
+  imports: [CommonModule, LoginComponent, UserComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
-// constructor(public api:ApiService)  {}
+  // constructor(public api:ApiService)  {}
 }

@@ -1,21 +1,20 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ApiService {
-  counter : number =1;
-  constructor() { }
+  counter: number = 1;
+  constructor() {}
 
-  inc()
-  {
-    this.counter++
-    console.log(this.counter)
+  inc() {
+    this.counter++;
+    console.log(this.counter);
   }
-  dec(){
-    this.counter--
-    console.log(this.counter)
+  dec() {
+    this.counter--;
+    console.log(this.counter);
   }
 
-  userList :any = []
+  userList: any = [];
 }
